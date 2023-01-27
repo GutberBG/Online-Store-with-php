@@ -1,0 +1,21 @@
+.banner{
+    width: 85%;
+    height: 300px;
+    border: 3px solid rgb(87, 66, 8);
+    margin: auto;
+
+    background-image: url(img/banner1.png);
+    background-size: 100% 100%;
+    animation: banner 10s infinite;
+}
+@keyframes banner{
+    0%, 30%{
+        background-image: url(img/banner4.png);
+    }
+    35%, 65%{
+        background-image: url(img/banner5.png);
+    }
+    70%, 100%{
+        background-image: url(img/banner6.png);
+    }
+}

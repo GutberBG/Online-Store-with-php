@@ -1,0 +1,142 @@
+body{
+    background: rgb(250, 249, 249);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 1.3rem;
+    line-height: 1.3em;
+}
+.header{
+    background: rgb(255, 174, 0);
+    color: #fff;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+.container{
+    width: 85%;
+    max-width: 85%;
+    margin: 0 auto;
+}
+.header a{
+    color:white;
+    text-decoration: none;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    letter-spacing: 15px;
+    font-size:1.4em;
+} 
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;   
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+.navigation ul li a:hover{
+    background: #ee7c12;
+}
+.main{
+    padding-top: 8rem;
+}
+.footer{
+    background: #f2f2f2;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+.container1{
+    height: 30%;
+    width: 50%;
+    margin: 0 auto;
+}
+.container1 h1{
+    color: orange;
+    text-align: center;
+}
+.container1 h5{
+    text-decoration: none;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+.publi{
+    width: 85%;
+    height: 420px;
+    max-width: 85%;
+    margin: 0 auto;
+    background: rgba(250, 192, 68, 0.829);
+    align-items: center;
+    
+}
+.publi img{
+    height: 400px;
+    margin-left: 10%;
+    float: left;
+    vertical-align: middle;
+}
+.publi h6{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 35%;
+    max-width: 50%;
+    color: white;
+    font-size: 30px;
+}
+.publi .ofer{
+    position: absolute;
+    width: 420px;
+    height: 280px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 35%;
+    background: rgba(255, 154, 2, 0.466);
+    margin-top: 4%;
+    color: rgb(143, 47, 47);
+    line-height: 20px;
+    box-shadow: 8px 8px 5px #333;
+}
+.publi .ofer h6{
+    color: rgb(3, 3, 3);
+    font-size: 20px;
+}
+#des{
+    color: rgb(253, 0, 0);
+    margin-left: 3%;
+    text-decoration: black;
+    text-transform: capitalize;
+    text-shadow: 0px 5px 5px #080808;
+    
+}
+.publi .ofer h2{
+    color: rgb(109, 71, 0);
+    text-align: center;
+    font-size: 25px;
+}
+.publi .ofer b{  
+    color: #000;
+    font-size: 12px;
+}
+.publi .animacion{
+    animation: animacioncel ease-in-out infinite 4s;
+}
+@keyframes animacioncel{
+    0%{transform: translatey(-10%);}
+    50%{transform: translateY(0%);}
+    100%{transform: translateY(-10%);}
+}
